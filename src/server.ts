@@ -1,5 +1,5 @@
-import app from "./app";
-import { initDb } from "./models";
+import app from "./app.ts";
+import { initDb } from "./models/index.ts";
 
 const PORT = 3000;
 

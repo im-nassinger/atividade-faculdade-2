@@ -1,7 +1,7 @@
-import express from "express";
 import cors from "cors";
-import categoryRoutes from "./routes/categoryRoutes";
-import enrollmentRoutes from "./routes/enrollmentRoutes";
+import express from "express";
+import categoryRoutes from "./routes/categoryRoutes.ts";
+import enrollmentRoutes from "./routes/enrollmentRoutes.ts";
 
 const app = express();
 

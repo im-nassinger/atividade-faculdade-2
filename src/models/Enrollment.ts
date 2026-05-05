@@ -1,6 +1,6 @@
 import { DataTypes, Model } from "sequelize";
-import { sequelize } from "../config/database";
-import { Category } from "./Category";
+import { sequelize } from "../config/database.ts";
+import { Category } from "./Category.ts";
 
 export class Enrollment extends Model {
   public id!: number;

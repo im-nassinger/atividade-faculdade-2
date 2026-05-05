@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Enrollment } from "../models/Enrollment";
-import { Category } from "../models/Category";
+import { Enrollment } from "../models/Enrollment.ts";
+import { Category } from "../models/Category.ts";
 
 function calculateEndDate(start: Date, months: number): Date {
   const end = new Date(start);
