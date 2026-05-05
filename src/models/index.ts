@@ -1,6 +1,6 @@
 import { sequelize } from "../config/database.ts";
-import "./Category";
-import "./Enrollment";
+import "./Category.ts";
+import "./Enrollment.ts";
 
 export const initDb = async () => {
   await sequelize.sync({ alter: true });
