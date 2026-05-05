@@ -6,6 +6,7 @@
     "outDir": "./dist",
     "esModuleInterop": true,
     "allowImportingTsExtensions": true,
+    "noEmit": true,
     "strict": true
   }
 }
